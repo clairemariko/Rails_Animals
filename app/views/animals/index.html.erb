@@ -1,0 +1,9 @@
+<h2> Animals </h2>
+
+<ul>
+<% @animals.each do |animal| %>
+
+  <li><%= animal.name %> <%= animal.move() %></li>
+
+<% end %>
+</ul>
